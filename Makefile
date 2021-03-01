@@ -3,7 +3,7 @@ create:
 run:
 	cd bin source activate
 start:
-	python3 convert.py
+	python3 main.py
 install:
 	pip3 install -r requirement.txt
 stop:
